@@ -1,5 +1,12 @@
 # Punchers Gesture Control
-*Python 3.11 • OpenCV 4.10 • MediaPipe 0.10.14 • MIT License*
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.12-blue.svg" alt="Python 3.12">
+  <img src="https://img.shields.io/badge/OpenCV-4.11-green.svg" alt="OpenCV 4.11">
+  <img src="https://img.shields.io/badge/MediaPipe-0.10-orange.svg" alt="MediaPipe 0.10">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
+</p>
+
 Play the Punchers boxing game through body gestures – a hands-free gaming experience using computer vision! 🚀
 
 📖 **Overview**  
