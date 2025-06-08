@@ -1,0 +1,20 @@
+{
+  "LEFT": {
+    "LEFT_JAB": "w",
+    "RIGHT_JAB": "s",
+    "LEAN_UP": "a",
+    "LEAN_DOWN": "d"
+  },
+  "RIGHT": {
+    "LEFT_JAB": "down",
+    "RIGHT_JAB": "up",
+    "LEAN_UP": "right",
+    "LEAN_DOWN": "left"
+  },
+  "TWO_PLAYER": {
+    "LEFT_JAB": "w",
+    "RIGHT_JAB": "up",
+    "LEAN_UP": "a",
+    "LEAN_DOWN": "left"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "gestures": [
+    {
+      "name": "LEFT_JAB",
+      "description": "Left arm extends forward as a jab",
+      "criteria": [
+        "Left arm nearly straight (shoulder-elbow-wrist angle > 150°)",
+        "Left wrist above left elbow"
+      ]
+    },
+    {
+      "name": "RIGHT_JAB",
+      "description": "Right arm extends forward as a jab",
+      "criteria": [
+        "Right arm nearly straight (shoulder-elbow-wrist angle > 150°)",
+        "Right wrist above right elbow"
+      ]
+    },
+    {
+      "name": "LEAN_UP",
+      "description": "Both hands raised near ears, elbows bent (high guard/lean up)",
+      "criteria": [
+        "Both wrists above respective shoulders",
+        "Wrists close to head (X distance < 0.13 of normalized image width)",
+        "Elbows at or above shoulder height"
+      ]
+    },
+    {
+      "name": "LEAN_DOWN",
+      "description": "Both hands dropped down, arms relaxed or straight (lean down)",
+      "criteria": [
+        "Both wrists below respective hips (+0.02 margin)",
+        "Both elbows below respective shoulders (+0.02 margin)",
+        "Arms can be straight or slightly bent (angle > 140°)"
+      ]
+    }
+  ]
+}

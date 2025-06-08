@@ -1,0 +1,24 @@
+{
+  "landmarks": {
+    "NOSE": 0,
+    "LEFT_SHOULDER": 11,
+    "RIGHT_SHOULDER": 12,
+    "LEFT_ELBOW": 13,
+    "RIGHT_ELBOW": 14,
+    "LEFT_WRIST": 15,
+    "RIGHT_WRIST": 16,
+    "LEFT_HIP": 23,
+    "RIGHT_HIP": 24
+  },
+  "angle_thresholds": {
+    "jab_min_angle": 150,
+    "jab_max_angle": 185,
+    "relaxed_arm_angle": 140
+  },
+  "distance_thresholds": {
+    "wrist_to_head_x": 0.13,
+    "wrist_below_hip_y_margin": 0.02,
+    "elbow_below_shoulder_y_margin": 0.02,
+    "elbow_high_shoulder_y_margin": 0.08
+  }
+}

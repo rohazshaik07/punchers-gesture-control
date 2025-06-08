@@ -1,0 +1,17 @@
+[project]
+name = "punchers-gesture-control"
+version = "0.1.0"
+description = "A gesture-based key controller for boxing games using MediaPipe and OpenCV"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.dependencies]
+opencv-python = "^4.8.0"
+mediapipe = "^0.10.0"
+numpy = "^1.23.0"
+pynput = "^1.7.6"
+
+[tool.setuptools]
+packages = ["."]
